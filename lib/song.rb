@@ -5,6 +5,9 @@ class Song
 
   def initialize
     @@count += 1
+    @name
+    @artist
+    @genre
   end
 
   def count
@@ -18,5 +21,7 @@ class Song
       nu_array << a.uniq
     end
   end
+
+  def artists
 
 end
