@@ -7,7 +7,6 @@ class Song
     @@count += 1
     @name = name
     @artist = artist
-    @genre = genre
   end
 
   def count
@@ -15,6 +14,7 @@ class Song
   end
 
   def genre(genre)
+    @genre = genre
     @@genre << @genre
   end
 
