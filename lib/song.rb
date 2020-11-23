@@ -15,11 +15,6 @@ class Song
   end
 
   def genre
-    nu_array = []
-    @@genre << genre
-    @@genre.each do |a|
-      nu_array << a.uniq
-    end
   end
 
   def artists
